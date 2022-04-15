@@ -9,7 +9,7 @@ For automated syllabus download from LMS-NUST.
 Run main.py file.
 
 ### Requirements
-- Selenium
+#### Selenium
 pip install selenium
 
 - Chrome Driver
