@@ -12,18 +12,18 @@ Run main.py file.
 #### Selenium
 pip install selenium
 
-- Chrome Driver
+#### Chrome Driver
 Download the chrome driver from here:
 "https://chromedriver.storage.googleapis.com/index.html"
 Make sure to check your chrome version from "chrome://version" before downloading the driver.
 After downloading the driver, update the driver's path in the __init__() in lms.py.
 
-- Credentials (optional)
+#### Credentials (optional)
 Save your LMS credentials as "LMS_USER" & "LMS_PASS" in your environment variables for security purposes.
 It is optional & you can simply pass the credentials as arguments to login() function in main.py but it is not recommended.
 You might need to restart your device before running the program if using environment variables to log in.
 
-- Subject IDs
+#### Subject IDs
 in the main.py file, the argument to download_subject() is the subject ID.
 Each subject has a specific ID assoicated with it.
 Replace these IDs with your subjects' IDs.
