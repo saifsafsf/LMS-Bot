@@ -10,13 +10,15 @@ Run main.py file.
 
 ### Requirements
 #### Selenium
+```
 pip install selenium
+```
 
 #### Chrome Driver
 Download the chrome driver from here:  
 "https://chromedriver.storage.googleapis.com/index.html"  
 Make sure to check your chrome version from "chrome://version" before downloading the driver.  
-After downloading the driver, update the driver's path in the "__init__()" in lms.py.  
+After downloading the driver, update the driver's path in the arguments of \__init__() in lms.py.  
 
 #### Credentials (optional)
 Save your LMS credentials as "LMS_USER" & "LMS_PASS" in your environment variables for security purposes.  
